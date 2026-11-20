@@ -1,4 +1,4 @@
-﻿// ==WindhawkMod==
+// ==WindhawkMod==
 // @id              batteryhub-custom-taskbar-integration
 // @name            BatteryHub Integration to Custom Taskbar
 // @description     Places the BatteryHub mouse/keyboard battery widget next to the tray arrow on custom-styled taskbars, without its background box
@@ -7,6 +7,8 @@
 // @github          https://github.com/jaysix06
 // @homepage        https://github.com/jaysix06/batteryhub-custom-taskbar-integration
 // @include         BatteryHub.exe
+// @architecture    x86-64
+// @license         MIT
 // @compilerOptions -lole32 -loleaut32 -luuid -lgdi32
 // ==/WindhawkMod==
 
