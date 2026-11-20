@@ -77,6 +77,7 @@ Not supported: Windows 10 taskbar, ExplorerPatcher / StartAllBack classic taskba
 
 ## Changelog
 
+- **1.5**: Waits a few seconds before searching again when a taskbar has no tray button. Refuses to load if its internal events can't be created, so the worker can never spin.
 - **1.4**: Safe unloading (bounded UI Automation calls, no blocking cross-thread moves). Finds the tray arrow by its AutomationId, with a fallback when it's hidden. Positions per taskbar. Leaves BatteryHub's drawing untouched when there's no clear background box or no alpha channel.
 - **1.3**: Widget follows an auto-hiding taskbar. Ignores stale tray positions while the taskbar animates.
 - **1.2**: Stays in place while hovering. Vertically centred on the tray icons.
